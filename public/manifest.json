@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "Teyssir ERP",
+  "short_name": "Teyssir",
+  "description": "رفيقك في التسيير — نظام ERP للمبيعات والمخزون والمالية",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "background_color": "#f6f8fb",
+  "theme_color": "#123b68",
+  "orientation": "any",
+  "dir": "rtl",
+  "lang": "ar",
+  "categories": ["business", "productivity"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "screenshots": [
+    { "src": "screenshot-mobile.png", "sizes": "1080x1920", "type": "image/png", "form_factor": "narrow" },
+    { "src": "screenshot-desktop.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide" }
+  ],
+  "prefer_related_applications": false,
+  "launch_handler": { "client_mode": ["navigate-existing", "auto"] }
+}
